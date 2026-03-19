@@ -1,0 +1,22 @@
+{
+  "name": "cicd-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^8.0.0"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.91.0",
+    "axios": "^1.13.6",
+    "localforage": "^1.10.0",
+    "react-router-dom": "^7.13.1",
+    "zustand": "^5.0.12"
+  }
+}
