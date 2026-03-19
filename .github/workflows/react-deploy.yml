@@ -46,7 +46,7 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: ${{ secrets.AWS_REGION }}
       # 6. 빌드된 결과물을 s3에 배포(업로드)
-      #   빌드된 결과(dist 폴더)를 S3 버킷과 동기화 
+      #   빌드된 결과(dist 폴더)를 S3 버킷과 동기화  
       #   --delete : dist 폴더에 없는 파일은 제거 (S3에만 있는 파일을 제거)
       - name: Deploy to S3
         run: |
